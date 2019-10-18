@@ -3,10 +3,6 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.0</TargetFramework>
-        <!-- <ToolCommandName>wk-my-app</ToolCommandName>
-        <PackAsTool>true</PackAsTool>
-        <PackageId>wk.MyApp</PackageId>
-        <Version>0.1.0</Version> -->
     </PropertyGroup>
 
 </Project>
