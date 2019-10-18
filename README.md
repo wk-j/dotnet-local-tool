@@ -18,10 +18,12 @@ dotnet pack src/MyApp \
     /p:Version=1.0.2 \
     --output .publish
 
+dotnet new tool-manifest
+
 dotnet tool install wk.MyApp \
     --add-source .publish
 
-dotnet tool uninstall wk.MyApp
-
 dotnet wk-my-app
+
+dotnet tool uninstall wk.MyApp
 ```
