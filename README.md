@@ -9,7 +9,7 @@ dotnet dotnet-outdated src/MyApp/MyApp.csproj
 *Pack*
 
 ```bash
-dotnet pack src/MyApp --output .publish /p:Version=1.0.1
+dotnet new console --language C# --output sr/MyApp
 
 dotnet pack src/MyApp \
     /p:PackAsTool=true \
